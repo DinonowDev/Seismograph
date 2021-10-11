@@ -1,0 +1,43 @@
+@media screen and (max-width: 1200px) {
+  .boxItem {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .boxItem {
+    width: 90%;
+  }
+}
+
+.boxItem {
+  justify-self: center;
+  min-height: 238px;
+  margin: 65px auto;
+  border-radius: 2rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2),
+    -0.2rem -0.2rem 0.5rem var(--white);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 !important;
+}
+
+.infoBox {
+  padding: 10px 20px;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iframeLocation {
+  width: 30%;
+  border-radius: 2rem;
+  border-top-left-radius: none;
+  border-bottom-left-radius: none;
+  height: 238px;
+  border: none;
+}

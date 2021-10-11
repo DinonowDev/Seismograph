@@ -1,0 +1,27 @@
+.BaseInfo {
+  display: flex;
+  width: 55%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 220px;
+  font-size: 13px;
+
+  div {
+    width: 70%;
+    font-weight: bold;
+    text-shadow: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2),
+      -0.2rem -0.2rem 0.5rem var(--white);
+
+    .icons {
+      font-size: 20px;
+      margin: 0 10px 0 -10px;
+    }
+  }
+}

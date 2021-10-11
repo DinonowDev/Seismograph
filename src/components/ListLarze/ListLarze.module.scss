@@ -1,0 +1,16 @@
+.listItemsBox {
+  width: 1100px;
+  min-height: 16rem;
+  padding: 2rem 25px;
+  margin: 120px auto;
+  border-radius: 3rem;
+  box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2),
+    -0.2rem -0.2rem 1.8rem var(--white);
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .listItemsBox {
+    width: calc(100% - 50px);
+  }
+}

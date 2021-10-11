@@ -1,0 +1,43 @@
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+  --white: #ffffff;
+  --greyLight-1: #e4ebf5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+}
+
+.Cities {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 0 10px;
+  font-size: 13px;
+  width: 35%;
+  text-align: center;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2),
+    inset -0.2rem -0.2rem 0.5rem var(--white);
+  padding: 5px;
+  border-radius: 15px;
+
+  h3 {
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 7px;
+  }
+
+  div {
+    margin: 4px 0;
+  }
+
+  p {
+    margin: 1px auto;
+    color: green;
+  }
+  span {
+    color: red;
+  }
+}

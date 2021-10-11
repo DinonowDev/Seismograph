@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://v1.fontapi.ir/css/Vazir");
+@font-face {
+  font-family: "Vazir-Persian";
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.eot");
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.eot")
+      format("embedded-opentype"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff2")
+      format("woff2"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff")
+      format("woff"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.ttf")
+      format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir-Persian";
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.eot");
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.eot")
+      format("embedded-opentype"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff2")
+      format("woff2"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff")
+      format("woff"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.ttf")
+      format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir-Persian";
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-FD-WOL.eot");
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-FD-WOL.eot")
+      format("embedded-opentype"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff2")
+      format("woff2"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff")
+      format("woff"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-FD-WOL.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir-Persian";
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.eot");
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.eot")
+      format("embedded-opentype"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2")
+      format("woff2"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff")
+      format("woff"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir-Persian";
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.eot");
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.eot")
+      format("embedded-opentype"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff2")
+      format("woff2"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff")
+      format("woff"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.ttf")
+      format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir-Persian";
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.eot");
+  src: url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.eot")
+      format("embedded-opentype"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff2")
+      format("woff2"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff")
+      format("woff"),
+    url("../fonts/Vazir-Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.ttf")
+      format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/IRANSans/IRANSansWeb_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/IRANSans/IRANSansWeb_Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: lighter;
+  src: url("../fonts/IRANSans/IRANSansWeb_Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: LaleZar;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lalezar-Font/OTF/Lalezar-Regular.otf"),
+    url("../fonts/Lalezar-Font/TTF/Lalezar-Regular.ttf");
+}
+
+.ant-radio + span {
+  font-family: 'Vazir-Persian';
+}
+
+.Toastify__toast-body {
+  font-family: 'Vazir-Persian' !important;
+}
+
+.ant-table-cell {
+  font-family: 'Vazir-Persian' !important;
+}
